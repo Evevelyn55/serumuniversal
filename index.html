@@ -13,25 +13,22 @@
 
         body {
             font-family: 'Georgia', serif;
-            line-height: 1.6;
-            color: #4a5c3a;
-            background: linear-gradient(135deg, #f8f6f0 0%, #e8e5d8 100%);
-            padding: 10px;
+        line-height: 1.6;
+        color: #4a5c3a;
+        background: linear-gradient(135deg, #f8f6f0 0%, #e8e5d8 100%);
         }
 
         .catalog-container {
-            max-width: 100%;
+            max-width: 1200px;
             margin: 0 auto;
             background: white;
             box-shadow: 0 0 30px rgba(0,0,0,0.1);
-            border-radius: 15px;
-            overflow: hidden;
         }
 
         /* ESTILOS DE serum_catalog_inicio.html */
         .cover {
             background: linear-gradient(135deg, #e8e5d8 0%, #d4d0c4 50%, #c9c5b8 100%);
-            padding: 40px 20px;
+            padding: 60px 40px;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -54,46 +51,46 @@
         }
 
         .logo {
-            width: 80px;
-            height: 80px;
+            width: 120px;
+            height: 120px;
             background: linear-gradient(45deg, #8b9d77, #a4b891);
             border-radius: 50%;
-            margin: 0 auto 20px;
+            margin: 0 auto 30px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 36px;
+            font-size: 48px;
             color: white;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             position: relative;
             z-index: 2;
         }
 
         .cover h1 {
-            font-size: 2.5em;
+            font-size: 3.2em;
             color: #4a5c3a;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
             position: relative;
             z-index: 2;
         }
 
         .cover .subtitle {
-            font-size: 1.2em;
+            font-size: 1.4em;
             color: #6b7d5c;
             font-style: italic;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             position: relative;
             z-index: 2;
         }
 
         .cover .tagline {
             background: rgba(255,255,255,0.9);
-            padding: 15px;
-            border-radius: 20px;
+            padding: 20px 30px;
+            border-radius: 25px;
             color: #4a5c3a;
-            font-size: 1em;
-            max-width: 100%;
+            font-size: 1.1em;
+            max-width: 600px;
             margin: 0 auto;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             position: relative;
@@ -101,196 +98,486 @@
         }
 
         .inicio-section {
-            padding: 30px 20px;
+            padding: 50px 40px;
             border-bottom: 2px solid #f0ede6;
         }
 
         .inicio-section .section-content {
             background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%);
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            padding: 50px 40px;
+            border-bottom: none;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
         }
 
         .inicio-section .section-content > div {
-            padding: 25px;
-            border-radius: 15px;
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
         }
 
         .inicio-section .section-content h2 {
-            font-size: 2em;
+            color: #2874a6;
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .inicio-section .section-content p {
-            font-size: 1.1em;
-            margin-bottom: 15px;
+            color: #4a5c3a;
+            font-size: 1.3em;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            font-weight: 500;
         }
 
         .inicio-section .section-content .natural-care-box {
-            padding: 20px;
-            margin: 20px 0;
+            background: linear-gradient(135deg, #f0f9f0 0%, #e6f3e6 100%);
+            padding: 30px;
+            border-radius: 20px;
+            margin: 30px 0;
+            border-left: 5px solid #27ae60;
         }
 
         .inicio-section .section-content .natural-care-box h3 {
-            font-size: 1.5em;
+            color: #229954;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .inicio-section .section-content .natural-care-box .natural-benefits {
-            grid-template-columns: 1fr;
-            gap: 15px;
-            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
         }
 
         .inicio-section .section-content .natural-care-box .natural-benefits div {
-            padding: 15px;
+            background: rgba(255,255,255,0.8);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
         }
 
         .inicio-section .section-content .guide-box {
-            padding: 20px;
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            padding: 25px;
+            border-radius: 20px;
+            border-left: 5px solid #f39c12;
         }
 
         .inicio-section .section-content .guide-box h3 {
-            font-size: 1.4em;
-        }
-
-        /* ESTILOS DE serum_catalog_guidee.html */
-        .section {
-            padding: 30px 20px;
-            border-bottom: 2px solid #f0ede6;
+            color: #856404;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
+        /* ESTILOS DE serum_catalog_guidee.html */
+        .section {
+            padding: 50px 40px;
+            border-bottom: 2px solid #f0ede6;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
         .section-title {
-            font-size: 2em;
-            margin-bottom: 30px;
+            font-size: 2.5em;
+            color: #4a5c3a;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #8b9d77, #a4b891);
+            margin: 15px auto;
+            border-radius: 2px;
         }
 
         .serum-description {
-            padding: 20px;
-            margin-bottom: 20px;
+            background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
         .serum-title {
-            font-size: 1.8em;
-            margin-bottom: 20px;
+            font-size: 2.2em;
+            color: #4a5c3a;
+            text-align: center;
+            margin-bottom: 25px;
         }
 
         .ingredients-grid {
-            grid-template-columns: 1fr;
-            gap: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
         }
-        
+
         .ingredient-card {
-            padding: 20px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .ingredient-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .ingredient-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #8b9d77, #a4b891);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .ingredient-name {
+            font-size: 1.3em;
+            color: #4a5c3a;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .ingredient-benefit {
+            color: #6b7d5c;
+            font-size: 0.95em;
+            line-height: 1.5;
         }
 
         .routine-container {
-            grid-template-columns: 1fr;
-            gap: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 30px;
         }
-        
+
         .routine-card {
-            padding: 25px;
+            background: white;
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
         }
-        
+
+        .routine-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #f4d03f, #f7dc6f);
+        }
+
+        .routine-card.night::before {
+            background: linear-gradient(90deg, #5d6d7e, #85929e);
+        }
+
         .routine-header {
-            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
         }
 
         .routine-icon {
-            width: 50px;
-            height: 50px;
-            font-size: 24px;
-            margin-right: 15px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #f4d03f, #f7dc6f);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            margin-right: 20px;
+        }
+
+        .night .routine-icon {
+            background: linear-gradient(45deg, #5d6d7e, #85929e);
         }
 
         .routine-title {
-            font-size: 1.5em;
+            font-size: 1.8em;
+            color: #4a5c3a;
+            margin-bottom: 5px;
+        }
+
+        .routine-subtitle {
+            color: #6b7d5c;
+            font-style: italic;
         }
 
         .step {
-            padding: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #fafaf8;
+            border-radius: 12px;
+            border-left: 4px solid #8b9d77;
+        }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
         }
 
         .step-number {
-            width: 30px;
-            height: 30px;
-            font-size: 16px;
-            margin-right: 10px;
+            width: 35px;
+            height: 35px;
+            background: #8b9d77;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
         }
-        
+
         .step-title {
-            font-size: 1.1em;
+            font-size: 1.2em;
+            color: #4a5c3a;
+            font-weight: bold;
+        }
+
+        .step-content {
+            color: #6b7d5c;
+            font-size: 0.95em;
+            line-height: 1.5;
         }
 
         .techniques-grid {
-            grid-template-columns: 1fr;
-            gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
         }
-        
+
         .technique-card {
-            padding: 25px;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f6f0 100%);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            border: 2px solid #e8e5d8;
         }
-        
+
         .technique-title {
+            color: #4a5c3a;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .technique-title::before {
+            content: '✨';
+            margin-right: 10px;
             font-size: 1.2em;
         }
 
         .schedule-grid {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 15px;
+            margin-top: 30px;
         }
 
         .day-card {
-            padding: 15px;
+            background: white;
+            padding: 20px 15px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
         }
-        
+
+        .day-card:hover {
+            transform: translateY(-3px);
+        }
+
         .day-name {
-            font-size: 1em;
+            font-weight: bold;
+            color: #4a5c3a;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .day-activity {
+            color: #6b7d5c;
+            font-size: 0.9em;
+            line-height: 1.4;
         }
 
         .results-timeline {
-            grid-template-columns: 1fr;
-            gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
         }
-        
+
         .timeline-card {
-            padding: 20px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            border-top: 4px solid #8b9d77;
+            position: relative;
         }
-        
-.timeline-period {
-            font-size: 1.2em;
+
+        .timeline-period {
+            font-size: 1.3em;
+            color: #4a5c3a;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .timeline-results {
+            color: #6b7d5c;
+            line-height: 1.6;
+        }
+
+        .timeline-results li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .timeline-results li::before {
+            content: '🌿';
+            position: absolute;
+            left: 0;
         }
 
         .tips-grid {
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-        
-        .tips-card {
-            padding: 25px;
-        }
-        
-        .tips-title {
-            font-size: 1.4em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
         }
 
+        .tips-card {
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+
+        .dont-card {
+            background: linear-gradient(135deg, #fdf2f2 0%, #fce8e6 100%);
+            border-left: 5px solid #e74c3c;
+        }
+
+        .do-card {
+            background: linear-gradient(135deg, #f0f9f0 0%, #e6f3e6 100%);
+            border-left: 5px solid #27ae60;
+        }
+
+        .tips-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .dont-card .tips-title {
+            color: #c0392b;
+        }
+
+        .do-card .tips-title {
+            color: #229954;
+        }
+
+        .tips-title::before {
+            font-size: 1.3em;
+            margin-right: 10px;
+        }
+
+        .dont-card .tips-title::before {
+            content: '❌';
+        }
+
+        .do-card .tips-title::before {
+            content: '✅';
+        }
+
+        .tips-list {
+            list-style: none;
+        }
+
+        .tips-list li {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 8px;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+        
         .footer-motivational {
-            padding: 30px 20px;
+            background: linear-gradient(135deg, #8b9d77 0%, #a4b891 100%);
+            color: white;
+            text-align: center;
         }
-        
-        .footer-motivational h2 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
-        }
-        
-        .footer-motivational p {
-            font-size: 1.1em;
-        }
-        
-        .footer-motivational div {
-            font-size: 1em;
-            margin-top: 20px;
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .cover {
+                padding: 40px 20px;
+            }
+            
+            .cover h1 {
+                font-size: 2.5em;
+            }
+            
+            .section, .inicio-section {
+                padding: 30px 20px;
+            }
+            
+            .routine-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .schedule-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .tips-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -385,65 +672,67 @@
             </div>
         </div>
 
-        <div class="section" style="background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%); padding: 40px 20px; border-bottom: 2px solid #f0ede6;">
-            <h2 class="section-title" style="font-size: 2.2em; color: #4a5c3a; text-align: center; margin-bottom: 30px;">🌟 Nuestra Fórmula Premium Natural</h2>
-            <div class="serum-description" style="padding: 20px; margin-bottom: 20px; background: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                <h3 class="serum-title" style="font-size: 2em; color: #6b7d5c; text-align: center; margin-bottom: 25px;">El Poder de 8 Aceites Esenciales de Lujo</h3>
-                <p style="text-align: center; color: #777; margin-bottom: 30px; font-size: 1.1em; font-style: italic;">
-                    Una alquimia perfecta de ingredientes botánicos para una piel nutrida, revitalizada y visiblemente más joven.
+        <div class="section">
+            <h2 class="section-title">🌟 Fórmula Premium Natural</h2>
+            <div class="serum-description">
+                <h3 class="serum-title">8 Ingredientes Activos de Lujo</h3>
+                <p style="text-align: center; color: #6b7d5c; margin-bottom: 30px; font-size: 1.1em;">
+                    Una sinfonía de aceites preciosos cuidadosamente seleccionados para nutrir, reparar y rejuvenecer tu piel de forma natural
                 </p>
-
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;">
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #a4b891; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #8b9d77; margin-bottom: 10px;">🏺</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Jojoba</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Hidratación equilibrante, imita el sebo natural, ideal para todo tipo de piel.</p>
+                
+                <div class="ingredients-grid">
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">🏺</div>
+                        <div class="ingredient-name">Aceite de Jojoba</div>
+                        <div class="ingredient-benefit">Hidratación profunda que imita el sebo natural de la piel. Regula la producción de grasa y mantiene el equilibrio perfecto.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #b8860b; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #daa520; margin-bottom: 10px;">🌰</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Argán</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Rico en vitamina E y antioxidantes, restaura la elasticidad y suaviza la piel.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">🌰</div>
+                        <div class="ingredient-name">Aceite de Argán</div>
+                        <div class="ingredient-benefit">Rico en vitamina E y ácidos grasos esenciales. Restaura la elasticidad y suavidad, combatiendo los signos del envejecimiento.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #36454f; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #36454f; margin-bottom: 10px;">🖤</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Comino Negro</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Antiinflamatorio y protector, calma la piel y combate los radicales libres.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">🖤</div>
+                        <div class="ingredient-name">Aceite de Comino Negro</div>
+                        <div class="ingredient-benefit">Poderoso antioxidante y antiinflamatorio. Calma irritaciones y protege contra el daño ambiental y los radicales libres.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #d14d72; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #ff69b4; margin-bottom: 10px;">🌹</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Rosa Mosqueta</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Regenerador y cicatrizante, reduce manchas y líneas finas, unifica el tono.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">🌹</div>
+                        <div class="ingredient-name">Aceite de Rosa Mosqueta</div>
+                        <div class="ingredient-benefit">Alto en vitamina C y retinol natural. Reduce cicatrices, manchas y líneas finas mientras unifica el tono de la piel.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #ff8c00; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #ffa500; margin-bottom: 10px;">👑</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Incienso</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Rejuvenecedor y reafirmante, estimula la regeneración celular, reduce arrugas.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">👑</div>
+                        <div class="ingredient-name">Aceite de Incienso</div>
+                        <div class="ingredient-benefit">El "oro líquido" de la cosmética. Estimula la regeneración celular, firma la piel y reduce arrugas profundas.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #8b4513; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #a0522d; margin-bottom: 10px;">💎</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Mirra</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Tonificante y revitalizante, mejora la textura de la piel madura, propiedades curativas.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">💎</div>
+                        <div class="ingredient-name">Aceite de Mirra</div>
+                        <div class="ingredient-benefit">Antiséptico natural con propiedades curativas. Tonifica, rejuvenece y mejora la textura de la piel madura.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #9370db; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #ba55d3; margin-bottom: 10px;">💜</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Aceite de Lavanda</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Calmante y equilibrante, promueve la relajación y el bienestar de la piel.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">💜</div>
+                        <div class="ingredient-name">Aceite de Lavanda</div>
+                        <div class="ingredient-benefit">Calma y equilibra todo tipo de piel. Sus propiedades relajantes y cicatrizantes proporcionan bienestar integral.</div>
                     </div>
 
-                    <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #ffd700; box-shadow: 2px 2px 5px rgba(0,0,0,0.03);">
-                        <div style="font-size: 1.5em; color: #f4a460; margin-bottom: 10px;">⚡</div>
-                        <h4 style="color: #4a5c3a; margin-bottom: 8px;">Vitamina E</h4>
-                        <p style="color: #6b7d5c; font-size: 0.95em;">Potente antioxidante, protege contra el envejecimiento prematuro, nutre intensamente.</p>
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">⚡</div>
+                        <div class="ingredient-name">Vitamina E</div>
+                        <div class="ingredient-benefit">Antioxidante protector que previene el envejecimiento prematuro. Nutre intensamente y mantiene la piel joven por más tiempo.</div>
                     </div>
                 </div>
             </div>
         </div>
+            </div>
+
 
         <div class="section" style="background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%); padding: 40px 20px; border-bottom: 2px solid #f0ede6;">
             <h2 class="section-title" style="font-size: 2.2em; color: #4a5c3a; text-align: center; margin-bottom: 30px;">📅 Tus Rutinas Diarias Esenciales</h2>
@@ -616,24 +905,8 @@
                 </div>
             </div>
         </div>
-
         <div class="section">
-            <h2 class="section-title">💧 Paso 3: Serum Universal</h2>
-            <div style="background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%); border-radius: 20px; padding: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-                <p style="text-align: center; color: #6b7d5c; margin-bottom: 30px; font-size: 1.1em;">
-                    Un sérum facial es un producto de cuidado de la piel con una textura ligera y una alta concentración de ingredientes activos. Está diseñado para penetrar profundamente en la piel y abordar preocupaciones específicas como la deshidratación, el envejecimiento, las manchas o las arrugas.
-                </p>
-
-                <div style="background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%); border-radius: 15px; padding: 25px; margin-top: 30px; text-align: center;">
-                    <h3 style="color: #2874a6; font-size: 1.5em; margin-bottom: 15px; display: flex; align-items: center; justify-content: center;"><span style="margin-right: 10px;">🛒</span> Nuestro Serum Recomendado</h3>
-                    <p style="color: #1b4f72; font-size: 1.1em; font-weight: bold;">Serum Universal Anti-Aging</p>
-                    <p style="color: #1b4f72; line-height: 1.6;">Nuestra fórmula única con 8 aceites esenciales premium está diseñada para nutrir, reparar y rejuvenecer tu piel de forma natural, combatiendo múltiples signos del envejecimiento.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">🧴 Paso 4: Hidratante - El Sello Perfecto</h2>
+            <h2 class="section-title">🧴 Paso 3: Hidratante - El Sello Perfecto</h2>
             <div style="background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%); border-radius: 20px; padding: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
                 <div style="background: #e8f4f8; border: 2px solid #5dade2; border-radius: 15px; padding: 25px; margin-bottom: 30px;">
                     <h3 style="color: #2874a6; margin-bottom: 20px; display: flex; align-items: center; font-size: 1.5em;">
@@ -654,8 +927,6 @@
                             <div>
                                 <h4 style="color: #2874a6; margin-bottom: 10px;">⏱️ Timing Perfecto:</h4>
                                 <ul style="margin-left: 20px;">
-                                    <li>Esperar 5-10 min después del serum</li>
-                                    <li>Aplicar cuando serum esté semi-absorbido</li>
                                     <li>Textura: gel ligero (AM), crema rica (PM)</li>
                                     <li>Cantidad: tamaño de arveja para toda la cara</li>
                                 </ul>
@@ -718,6 +989,22 @@
                 </div>
             </div>
         </div>
+        <div class="section">
+            <h2 class="section-title">💧 Paso 4: Serum Universal</h2>
+            <div style="background: linear-gradient(135deg, #f8f6f0 0%, #f0ede6 100%); border-radius: 20px; padding: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                <p style="text-align: center; color: #6b7d5c; margin-bottom: 30px; font-size: 1.1em;">
+                    Un sérum facial es un producto de cuidado de la piel con una textura ligera y una alta concentración de ingredientes activos. Está diseñado para penetrar profundamente en la piel y abordar preocupaciones específicas como la deshidratación, el envejecimiento, las manchas o las arrugas.
+                </p>
+
+                <div style="background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%); border-radius: 15px; padding: 25px; margin-top: 30px; text-align: center;">
+                    <h3 style="color: #2874a6; font-size: 1.5em; margin-bottom: 15px; display: flex; align-items: center; justify-content: center;"><span style="margin-right: 10px;">🛒</span> Nuestro Serum Recomendado</h3>
+                    <p style="color: #1b4f72; font-size: 1.1em; font-weight: bold;">Serum Universal Anti-Aging</p>
+                    <p style="color: #1b4f72; line-height: 1.6;">Nuestra fórmula única con 8 aceites esenciales premium está diseñada para nutrir, reparar y rejuvenecer tu piel de forma natural, combatiendo múltiples signos del envejecimiento.</p>
+                </div>
+            </div>
+        </div>
+
+
         
         <div class="section">
             <h2 class="section-title">☀️ Paso 5: Protector Solar - Tu Escudo Diario</h2>
@@ -897,6 +1184,5 @@
                 "La belleza natural no tiene edad cuando se cuida con amor y dedicación"
             </div>
         </div>
-    </div>
 </body>
 </html>
